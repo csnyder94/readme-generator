@@ -16,11 +16,43 @@ const questions = [
         message: 'What is the description of your project?',
     },
     {
+        type: 'input',
+        name: 'installation',
+        message: 'What command should be ran to install dependencies?',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What is the usage instructions of your project?',
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'What is your preferred license?',
         choices: ['None', 'MIT', 'Apache'],
     },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'What is the contribution guidelines of your project?',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What command should be run to run tests?',
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+    },
+    
+    
 ];
 
 // TODO: Create a function to write README file
