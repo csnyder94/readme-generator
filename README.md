@@ -30,7 +30,6 @@ This application allows a user to quickly create a professional README for a pro
 ## Usage
 
 This application utilizes VS Code and Git Bash terminal to create a README.
-For a video walkthrough using the application, go to the following link: https://drive.google.com/file/d/135VssskQSneliQzWaoL3l2EpWaG3XMxQ/view
 
 ## Support
 
